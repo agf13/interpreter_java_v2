@@ -1,0 +1,4 @@
+
+	*w1,...,w6 - done
+	*w7 - to do:  	-implement "new(string,exp)"
+		  	-implement Garbage Colector

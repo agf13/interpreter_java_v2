@@ -1,0 +1,42 @@
+Id = 0
+ExeStack: [(int v; (v = 2; print(v)))]
+SymTable: {}
+FileTable: {}
+HeapTable: {}
+Output: []
+
+Id = 0
+ExeStack: [(v = 2; print(v)), int v]
+SymTable: {}
+FileTable: {}
+HeapTable: {}
+Output: []
+
+Id = 0
+ExeStack: [(v = 2; print(v))]
+SymTable: {v=0}
+FileTable: {}
+HeapTable: {}
+Output: []
+
+Id = 0
+ExeStack: [print(v), v = 2]
+SymTable: {v=0}
+FileTable: {}
+HeapTable: {}
+Output: []
+
+Id = 0
+ExeStack: [print(v)]
+SymTable: {v=2}
+FileTable: {}
+HeapTable: {}
+Output: []
+
+Id = 0
+ExeStack: []
+SymTable: {v=2}
+FileTable: {}
+HeapTable: {}
+Output: [2]
+
